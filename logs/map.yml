@@ -14,7 +14,7 @@ I-8_Static:
       SRTHash: 0
       Translate: [3633.74585, 389.672302, 3249.4917]
       UnitConfigName: LinkTagAnd
-    - '!Parameters': {EventFlowEntryName: Detect, EventFlowName: CheatMenu_Detect, IsEndlessEvent: false, LaunchEventByOffSignal: true,
+    - '!Parameters': {EventFlowEntryName: Detect, EventFlowName: Cheat_Menu, IsEndlessEvent: false, LaunchEventByOffSignal: true,
         LaunchEventByOnSignal: true}
       HashId: !u 0xa4a402d6
       SRTHash: 0
