@@ -1,4 +1,4 @@
-CheatMenu_Detect<Detect>:
+Cheat_Menu<Detect>:
   is_pause_non_demo_member: false
   is_startable_air: true
   is_timeline: false
