@@ -1,0 +1,12 @@
+bool_data:
+  add:
+    Trigger_Cheat:
+      HashValue: -1260285611
+      InitValue: 0
+      IsProgramReadable: true
+      IsProgramWritable: true
+      IsSave: true
+      MaxValue: true
+      MinValue: false
+      ResetType: 0
+  del: []
