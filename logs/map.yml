@@ -1,7 +1,7 @@
 I-8_Static:
   Objs:
     add:
-    - '!Parameters': {EventFlowEntryName: Trigger, EventFlowName: Cheat_Menu, IsEndlessEvent: false, LaunchEventByOffSignal: false,
+    - '!Parameters': {EventFlowEntryName: Trigger, EventFlowName: CheatMenu, IsEndlessEvent: false, LaunchEventByOffSignal: false,
         LaunchEventByOnSignal: true}
       HashId: !u 0x1c7a3938
       SRTHash: 0
@@ -14,7 +14,7 @@ I-8_Static:
       SRTHash: 0
       Translate: [3633.74585, 389.672302, 3249.4917]
       UnitConfigName: LinkTagAnd
-    - '!Parameters': {EventFlowEntryName: Detect, EventFlowName: Cheat_Menu, IsEndlessEvent: false, LaunchEventByOffSignal: true,
+    - '!Parameters': {EventFlowEntryName: Detect, EventFlowName: CheatMenu, IsEndlessEvent: false, LaunchEventByOffSignal: true,
         LaunchEventByOnSignal: true}
       HashId: !u 0xa4a402d6
       SRTHash: 0
