@@ -1,0 +1,12 @@
+SwordCherry_HeroShade_Teacher<Near>:
+  disable_event_start_interval: true
+  is_pause_non_demo_member: false
+  is_timeline: false
+  mode: Seamless
+SwordCherry_HeroShade_Teacher<Talk>:
+  exist_enable_camera_input: true
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: InitTalk.bfevfl}
+  - {file: Common.bfevfl}

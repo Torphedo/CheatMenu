@@ -1,0 +1,16 @@
+'1251126311':
+  aabbMax: {X: 0.34709999, Y: 1.77367997, Z: 0.68344003}
+  aabbMin: {X: -0.543070018, Y: -0.00013, Z: -0.218480006}
+  boundingForTraverse: 1.77381003
+  bugMask: 3.0
+  cursorOffsetY: 0.300000012
+  elink: Npc_King_Vagrant007
+  instSize: 612268.0
+  name: SwordCherry_HeroShade_Teacher
+  profile: NPC
+  slink: Npc_Hylia_M
+  sortKey: 0.0
+  systemIsGetItemSelf: false
+  systemSameGroupActorName: ''
+  xlink: Npc
+  yLimitAlgorithm: NoLimit

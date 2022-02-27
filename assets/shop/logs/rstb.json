@@ -1,0 +1,12 @@
+{
+  "Actor/AIProgram/SwordCherry_CastleTown.baiprog": 24555,
+  "Actor/AISchedule/SwordCherry_HeroShade_Teacher.baischedule": 2536,
+  "Actor/ASList/SwordCherry_CastleTown.baslist": 15477,
+  "Actor/ActorLink/SwordCherry_HeroShade_Teacher.bxml": 2513,
+  "Actor/Pack/SwordCherry_HeroShade_Teacher.bactorpack": 146976,
+  "Actor/Physics/SwordCherry_CastleTown.bphysics": 4758,
+  "Actor/ShopData/SwordCherry_HeroShade_Teacher.bshop": 2415,
+  "Event/EventInfo.product.byml": 620356,
+  "Event/SwordCherry_HeroShade_Teacher.beventpack": 92160,
+  "EventFlow/SwordCherry_HeroShade_Teacher.bfevfl": 11072
+}
