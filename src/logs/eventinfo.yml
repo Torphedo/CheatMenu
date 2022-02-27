@@ -1,0 +1,18 @@
+CheatMenu<Detect>:
+  is_pause_non_demo_member: false
+  is_startable_air: true
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: GetDemo.bfevfl}
+CheatMenu<Trigger>:
+  child:
+  - {entry: Demo011_0, file: Demo011_0}
+  - {entry: Demo165_4, file: Demo165_4}
+  - {entry: Demo165_5, file: Demo165_5}
+  exist_enable_camera_input: true
+  is_startable_air: true
+  is_timeline: false
+  mode: Seamless
+  subfile:
+  - {file: GetDemo.bfevfl}

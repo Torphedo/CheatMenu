@@ -1,0 +1,72 @@
+I-8_Static:
+  Objs:
+    add:
+    - '!Parameters': {EventFlowEntryName: Trigger, EventFlowName: CheatMenu, IsEndlessEvent: false, LaunchEventByOffSignal: false,
+        LaunchEventByOnSignal: true}
+      HashId: !u 0x1c7a3938
+      SRTHash: 0
+      Translate: [3629.51416, 394.672302, 3247.53711]
+      UnitConfigName: EventTag
+    - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Trigger_Cheat, SaveFlagOnOffType: 0}
+      HashId: !u 0x38d6b945
+      LinksToObj:
+      - {DefinitionName: BasicSig, DestUnitHashId: !u 0xb12ac76f}
+      SRTHash: 0
+      Translate: [3633.74585, 389.672302, 3249.4917]
+      UnitConfigName: LinkTagAnd
+    - '!Parameters': {EventFlowEntryName: Detect, EventFlowName: CheatMenu, IsEndlessEvent: false, LaunchEventByOffSignal: true,
+        LaunchEventByOnSignal: true}
+      HashId: !u 0xa4a402d6
+      SRTHash: 0
+      Translate: [3530.68091, 428.917511, 3287.57349]
+      UnitConfigName: EventTag
+    - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+      HashId: !u 0xa305c809
+      LinksToObj:
+      - '!Parameters': {AppearFade: false}
+        DefinitionName: BasicSig
+        DestUnitHashId: !u 0xab634d7d
+      SRTHash: -890102615
+      Scale: 2.0
+      Translate: [3523.55029, 428.917511, 3293.34668]
+      UnitConfigName: LinkTagOr
+    - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+      HashId: !u 0xab634d7d
+      LinksToObj:
+      - {DefinitionName: BasicSig, DestUnitHashId: !u 0xa4a402d6}
+      SRTHash: 0
+      Translate: [3525.5769, 428.917511, 3285.5354]
+      UnitConfigName: LinkTagAnd
+    - '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 1.0}
+      HashId: !u 0x9bff3cd4
+      LinksToObj:
+      - '!Parameters': {NoAutoDemoMember: false}
+        DefinitionName: BasicSig
+        DestUnitHashId: !u 0xab634d7d
+      SRTHash: 0
+      Translate: [3519.45923, 428.917511, 3282.04834]
+      UnitConfigName: SwitchTimer
+    - '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false, Shape: Box}
+      HashId: !u 0x0404cc22
+      LinksToObj:
+      - {DefinitionName: BasicSig, DestUnitHashId: !u 0xab634d7d}
+      - {DefinitionName: BasicSig, DestUnitHashId: !u 0xa305c809}
+      - {DefinitionName: BasicSig, DestUnitHashId: !u 0xb12ac76f}
+      Rotate: -0.520051837
+      SRTHash: 1768331558
+      Scale: 99999.0
+      Translate: [3621.61597, 343.635101, 3266.96875]
+      UnitConfigName: Area
+    - '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+      HashId: !u 0xb12ac76f
+      LinksToObj:
+      - {DefinitionName: BasicSig, DestUnitHashId: !u 0x1c7a3938}
+      SRTHash: 0
+      Translate: [3631.73584, 391.922302, 3248.53662]
+      UnitConfigName: LinkTagAnd
+    del: []
+    mod: {}
+  Rails:
+    add: []
+    del: []
+    mod: {}

@@ -1,0 +1,12 @@
+{
+  "name": "Torph's Cheat Menu",
+  "desc": "Cross-platform cheat menu.",
+  "url": "",
+  "image": "",
+  "version": "1.0.0",
+  "depends": [],
+  "options": {},
+  "platform": "wiiu",
+  "id": "",
+  "priority": 104
+}
